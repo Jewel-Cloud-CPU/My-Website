@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewels Organic Farm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .product {
+            display: flex;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .product img {
+            max-width: 200px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .product p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jewels Organic Farm</h1>
+        <p>Fresh, Organic, and Delicious Fruits from Nature</p>
+    </header>
+
+    <div class="container">
+        <h2>Our Products</h2>
+
+        <!-- Malta -->
+        <div class="product">
+            <img src="malta.jpg" alt="Malta">
+            <div>
+                <h3>Malta</h3>
+                <p>Our organic Malta is grown with care, free from synthetic pesticides and fertilizers. Rich in Vitamin C, it’s perfect for a healthy lifestyle.</p>
+                <p><strong>Price:</strong> ৳150 per kg</p>
+            </div>
+        </div>
+
+        <!-- Guava -->
+        <div class="product">
+            <img src="guava.jpg" alt="Guava">
+            <div>
+                <h3>Guava</h3>
+                <p>Enjoy the natural sweetness of our organic Guava. Packed with nutrients, it’s a great addition to your diet.</p>
+                <p><strong>Price:</strong> ৳120 per kg</p>
+            </div>
+        </div>
+
+        <!-- Dragon Fruit -->
+        <div class="product">
+            <img src="dragon-fruit.jpg" alt="Dragon Fruit">
+            <div>
+                <h3>Dragon Fruit</h3>
+                <p>Our exotic Dragon Fruit is grown organically, ensuring the highest quality and taste. A superfood for your health.</p>
+                <p><strong>Price:</strong> ৳300 per kg</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact Us: jewelsorganicfarm@example.com | +880 1234 567890</p>
+        <p>Address: Dhaka, Bangladesh</p>
+        <p>&copy; 2023 Jewels Organic Farm. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
